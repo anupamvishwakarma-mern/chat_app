@@ -1,0 +1,42 @@
+npx create-expo-app --template
+choose 'Blank' (first)
+set project name
+go to main directory
+
+
+// install some required dependencies
+
+npm i @react-native-firebase/app
+npm i @react-native-firebase/auth
+npm i @react-native-firebase/firestore
+npm i @react-native-picker/picker
+npm i expo-linear-gradient 
+npm i react-native-date-picker
+npm i react-native-gifted-chat
+npm install @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+npm install @react-navigation/stack
+npx expo install react-native-gesture-handler
+
+import 'react-native-gesture-handler'; (add into app.js or index.js)
+
+npx expo install @react-native-masked-view/masked-view 
+
+npm install -g eas-cli
+npx expo install expo-dev-client
+
+create account into expo.dev
+and run command into terminal 'eas login'
+use same email or username and password 
+
+eas build --profile development --platform android
+no make changes create default settings and application id 
+
+at last select no after show QR code
+
+'eas credentials' run this command
+select 'Android > development > Keystore: Manage everything needed to build your project > Set up a new keystore
+
+
+// run this command for rebuild
+eas build --profile development --platform android

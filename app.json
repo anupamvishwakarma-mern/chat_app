@@ -3,6 +3,7 @@
     "name": "chat_app",
     "slug": "chat_app",
     "version": "1.0.0",
+    "plugins": ["@react-native-firebase/app", "@react-native-firebase/auth"],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,13 +19,20 @@
       "supportsTablet": true
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anupam_harimaya_v.chat_app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "332d9329-9fc4-44bf-996b-b9bdfab328e9"
+      }
     }
   }
 }

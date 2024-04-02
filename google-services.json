@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "941380013777",
+    "project_id": "chatapp-ee03e",
+    "storage_bucket": "chatapp-ee03e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941380013777:android:a8f003f6422f2cffb03ff0",
+        "android_client_info": {
+          "package_name": "com.anupam_harimaya_v.chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP2ViYAVk4tSCM3wjQnHQhCx6tDgcUby8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
